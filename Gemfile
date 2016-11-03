@@ -26,7 +26,9 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'acts_as_api', '0.4.3'
+gem 'protected_attributes_continued', '1.2.4'
+gem 'acts_as_api', github: 'fabrik42/acts_as_api', branch: 'rails5'
+# gem 'acts_as_api', github: 'shaicoleman/acts_as_api', branch: 'rails5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
